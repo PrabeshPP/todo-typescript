@@ -1,11 +1,11 @@
 import './App.css';
+import InputField from './components/InputField';
 
-function App() {
-  return (
-    <div className="App">
-     <h1>Hello! This is a typescript based web application.</h1>
-    </div>
-  );
+const App:React.FC=()=>{
+  return <div className='App'>
+      <span className="heading">Taskify</span>
+      <InputField/>
+  </div>
 }
 
 export default App;
